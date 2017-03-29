@@ -13,12 +13,16 @@ Versi Steam diumumkan pada 3 Mei 2015, dan versi mobile dari Agar-Agar.io untuk 
 		
 
 ## 2. Langkah instalasi dalam CLI.
-* lakukan git clone pada repositori  git clone [https://github.com/huytd/agar.io-clone.git](https://github.com/huytd/agar.io-clone.git)
-* masuk ke folder tempat clone sebelumnya  cd agar.io-clone
-* instal gulp npm install -g gulp
+* lakukan git clone pada repositori  
+    `git clone [https://github.com/huytd/agar.io-clone.git](https://github.com/huytd/agar.io-clone.git)`
+* masuk ke folder tempat clone sebelumnya  
+    `cd agar.io-clone`
+* instal gulp 
+    `npm install -g gulp`
 * pasang npm 
-			sudo npm install
-* jalankan server gulp run 
+    `sudo npm install`
+* jalankan server 
+    `gulp run` 
 
 ## Cara Pemakaian
 
