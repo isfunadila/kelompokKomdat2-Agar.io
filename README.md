@@ -43,7 +43,13 @@ Versi Steam diumumkan pada 3 Mei 2015, dan versi mobile dari Agar-Agar.io untuk 
 4. Semakin besar ukuran karakter, semakin lambat untuk bergerak
 
 # ****Tampilan aplikasi web****
+![Screenshot 1](https://github.com/isfunadila/kelompokKomdat2-Agar.io/blob/master/screen1.png)
 
+![Screenshot 2](https://github.com/isfunadila/kelompokKomdat2-Agar.io/blob/master/screen2.png)
+
+![Screenshot 3](https://github.com/isfunadila/kelompokKomdat2-Agar.io/blob/master/screen3.png)
+
+![Screenshot 4](https://github.com/isfunadila/kelompokKomdat2-Agar.io/blob/master/screen4.png)
 
 
 
@@ -73,6 +79,7 @@ Pendapat kami permainan ini sangat mudah dimengerti dan seru jika bermain bersam
 * Game membosankan jika sendirian yang main
 * Bandingkan dengan aplikasi web kelompok lain yang sejenis
 
+Karena tidak ada aplikasi web kelompok lain yang sejenis (game) maka kami membandingkan dengan game slither.io. Slither.io merupakan game PvP multiplayer di domain io. Untuk instalasai game ini hampir sama dengan agar.io yaitu membutuhkan NodeJS. Pemain menggerakan sebuah ular dimana muka ular tersebut tidak boleh mengenai badan ular lain. Ada beberapa perbedaan agar.io dengan dengan slither.io yaitu slither lebih cepat pergerakannya dibandingkan agar.io. Selain itu dari segi tampilan agar.io menggunakan objek yang terlalu sederhana yaitu lingkaran sedangkan slither.io menggunakan ular sebagai objeknya. Slither.io juga lebih “adil” dibandingkan agar.io, karena pada agar.io apabila objek kita sudah terlalu besar maka peluang untuk dikalahkan akan semakin sulit, karena harus objek yang lebih besar yang memakannya. Sedangkan pada slither.io ular yang paling besar bisa kalah asalkan muka dari ular tersebut mengenai badan dari ular lain. 
 
 # ****Referensi****
 [https://id.wikipedia.org/wiki/Agar.io](https://id.wikipedia.org/wiki/Agar.io)
