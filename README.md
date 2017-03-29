@@ -1,130 +1,84 @@
-Agar.io Clone
-=============
+****Aplikasi Web agar.io****
+====================
 
-**CONTRIBUTOR WANTED: I'm really sorry for not have enough time to maintain this project. I'm looking for contributors who willing to keep this project going. If you feel happy to join. Please contact me via my Twitter: @huydotnet. Thank you so much!**
+## Sekilas Tentang
+Agar.io adalah sebuah Permainan Multipemain Besar yang dibuat oleh Matheus Valadares. Pemain mengontrol sebuah cell di peta yang mewakili sebuah cawan petri, tujuannya adalah untuk mendapatkan lebih banyak massa sebanyak mungkin dengan menelan sel yang lebih kecil tanpa ditelan oleh yang lebih besar. Nama Agar.io berasal dari bahan agar-agar, digunakan untuk kultur bakteri.
+Cara memainkan agar.io sangat mudah, cukup dengan mengarahkan mouse atau kursor pada komputer untuk menggerakkan sel. Semakin banyak memakan ‘agar’, maka sel kita akan semakin cepat besar. Semakin besar sel, maka kita mudah untuk menelan sel pemain lain. Namun semakin besar sel yang kita miliki, maka pergerakannya akan semakin lambat serta tidak selincah sel berukuran kecil.
+Game agar.io dengan kualitas grafis sederhana ini mengalami peningkatan secara drastis setelah diulas oleh seorang game reviewer terkenal, ****Felix Arvid Ulf Kjellberg**** atau lebih dikenal dengan “****PewDiePie****” di Youtube.
+Versi Steam diumumkan pada 3 Mei 2015, dan versi mobile dari Agar-Agar.io untuk iOS dan Android dirilis pada 8 april 2015 oleh Miniclip.
 
-[![GitHub Stars](https://img.shields.io/github/stars/huytd/agar.io-clone.svg)](https://github.com/huytd/agar.io-clone/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/huytd/agar.io-clone.svg)](https://github.com/huytd/agar.io-clone/issues)
-[![GitHub Wiki](https://img.shields.io/badge/project-wiki-ff69b4.svg)](https://github.com/huytd/agar.io-clone/wiki/Home)
-![Build Status](https://api.travis-ci.org/huytd/agar.io-clone.svg)
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](#live-demo) -
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/huytd/agar.io-clone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## Instalasi 
+### Prasyarat
+* nodeJS
+		
 
-A simple but powerful Agar.IO clone built with socket.IO and HTML5 canvas on top of NodeJS.
+## 2. Langkah instalasi dalam CLI.
+* lakukan git clone pada repositori  git clone [https://github.com/huytd/agar.io-clone.git](https://github.com/huytd/agar.io-clone.git)
+* masuk ke folder tempat clone sebelumnya  cd agar.io-clone
+* instal gulp npm install -g gulp
+* pasang npm 
+			sudo npm install
+* jalankan server gulp run 
 
-![Image](screenshot.png)
+## Cara Pemakaian
 
-## Live Demos
-An updated and live list of live demos can be found on the [Live Demos wiki page](https://github.com/huytd/agar.io-clone/wiki/Live-Demos).
+#### Menyalakan server
+1. Ketik ssh adam@172.18.88.72 pada terminal
+2. Masukkan password
+3. Masuk ke folder agar.id-clone
+4. Ketik sudo gulp run
+5. Masukkan password
+6. Buka browser, masuk ke alamat 172.18.88.72:3000
 
----
+#### Game basics
+1. Gerakkan mouse untuk menggerakkan karakter Anda
+2. Makan partikel makanan dan pemain lain agar karakter Anda bertambah besar
+3. Ukuran karakter setara dengan banyaknya partikel makanan yang dimakan
+4. Cobalah untuk mengembangkan karakter sebesar mungkin dan makan pemain lain sebanyak mungkin
 
-## How to Play
-You can check out how to play on our [wiki](https://github.com/huytd/agar.io-clone/wiki/How-to-Play).
+#### Aturan bermain
+1. Pemain yang tidak memakan, maka tidak bisa partikel memakan dalam beberapa waktu tertentu
+2. Setiap 3 pemain bergabung untuk bermain, 3 partikel makanan akan beranak
+3. Setiap pemain memakan partikel makanan, partikel makanan baru akan muncul
+4. Semakin besar ukuran karakter, semakin lambat untuk bergerak
 
-#### Game Basics
-- Move your mouse around the screen to move your cell.
-- Eat food and other players in order to grow your character (food respawns every time a player eats it).
-- A player's **mass** is the number of food particles eaten.
-- **Objective**: Try to get as big as possible and eat other players.
-
-#### Gameplay Rules
-- Players who haven't eaten yet cannot be eaten as a sort of "grace" period. This invincibility fades once they gain mass.
-- Everytime a player joins the game, **3** food particles will spawn.
-- Everytime a food particle is eaten by a player, **1** new food particle will respawn.
-- The more food you eat, the slower you move to make the game fairer for all.
-
----
-
-## Latest Changes
-- Game logic is handled by the server
-- The client side is for rendering of the canvas and it's items only.
-- Mobile optimisation.
-- Implementation of working viruses.
-- Display player name.
-- Now supporting chat. 
-- Type`-ping` in the chatbox to check your ping, as well as other commands!
-
----
-
-## Installation
-You can simply click one of the buttons below to easily deploy this repo to Bluemix or Heroku:
-
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/huytd/agar.io-clone)
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-Or...
-
->You can check out a more detailed setup tutorial on our [wiki](https://github.com/huytd/agar.io-clone/wiki/Setup).
-
-#### Requirements
-To run / install this game, you'll need: 
-- NodeJS with NPM installed.
-- socket.IO.
-- Express.
+# ****Tampilan aplikasi web****
 
 
-#### Downloading the dependencies
-After cloning the source code from Github, you need to run the following command to download all the dependencies (socket.IO, express, etc.):
-
-```
-npm install
-```
-
-#### Running the Server
-After downloading all the dependencies, you can run the server with the following command:
-
-```
-npm start
-```
-
-The game will then be accessible at `http://localhost:3000` or the respective server installed on. The default port is `3000`, however this can be changed in config. Further elaboration is available on our [wiki](https://github.com/huytd/agar.io-clone/wiki/Setup).
 
 
-### Running the Server with Docker
-If you have [Docker](https://www.docker.com/) installed, after cloning the repository you can run the following commands to start the server and make it acessible at `http://localhost:3000`:
 
-```
-docker build -t agarioclone_agar .
-docker run -it -p 3000:3000 agarioclone_agar
-```
+## ****Fungsi-fungsi utama:****
+### Play
+* Fungsi untuk bermain Agar.io bersama pemain lain
 
----
+### Open chat box
+* Fungsi untuk chatting dengan pemain lain
 
-## FAQ
-1. **What is this game?**
+### Spectate
+* Fungsi untuk melihat pemain lain bermain Agar.io tanpa kita ikut bermain
 
-  This is a clone of the game [Agar.IO](http://agar.io/). Someone said that Agar.IO is a clone of an iPad game called Osmos, but we haven't tried it yet. (Cloneception? :P)
-  
-2. **Why would you make a clone of this game?**
+### Settings
+* Fungsi untuk melakukan pengaturan permainan, terdapat pengaturan mouse, border, mass, dan food
 
-  Well, while the original game is still online, it is closed-source, and sometimes, it suffers from massive lag. That's why we want to make an open source version of it: for educational purposes, and to let the community add the features that they want, self-host it on their own servers, have fun with friends and more.
-  
-3. **Any plans on adding an online server to compete with Agar.IO or making money out of it?**
 
-  No. This game belongs to the open-source community, and we have no plans on making money out of it nor competing with anything. But you can of course create your own public server, let us know if you do so and we can add it to our Live Demos list!
-  
-4. **Can I deploy this game to my own server?**
+# ****Pembahasan****
+Pendapat kami permainan ini sangat mudah dimengerti dan seru jika bermain bersama teman maka penggunaan permainan ini sebagai aplikasi yang dipasang ke server. Permainan ini open source dan gratis jadi bagus sebagai alat pembelajaran web server dan maintenancenya.
+### Pros: 
+* Mudah diinstalasi
+* Game mudah dipahami
 
-  Sure you can! That's what it's made for! ;)
-  
-5. **I don't like HTML5 canvas. Can I write my own game client with this server?**
+### Cons:
+* Frame rate yang sangat jelek
+* Game membosankan jika sendirian yang main
+* Bandingkan dengan aplikasi web kelompok lain yang sejenis
 
-  Of course! As long as your client supports WebSockets, you can write your game client in any language/technology, even with Unity3D if you want (there is an open source library for Unity to communicate with WebSockets)!
-  
-6. **Can I use some code of this project on my own?**
 
-  Yes you can.
+# ****Referensi****
+[https://id.wikipedia.org/wiki/Agar.io](https://id.wikipedia.org/wiki/Agar.io)
 
-## For Developers
- - [Game Architecture](https://github.com/huytd/agar.io-clone/wiki/Game-Architecture) to understand how the backend works.
- - If you want to start your own project, I recommend you use [this template](https://github.com/huytd/node-online-game-template). Happy developing!
- -
+[http://siloka.com/bermain-agar-io-menyegarkan-otak-dan-pikiran-kita.html](http://siloka.com/bermain-agar-io-menyegarkan-otak-dan-pikiran-kita.html)
 
-## TODOs
- We have an explicit [TODO](https://github.com/huytd/agar.io-clone/wiki/Coming-Features) list for the all the features we aim to develop in the future. Feel free to contribute, we'll be more than grateful.
+[https://github.com/huytd/agar.io-clone/wiki/Setup](https://github.com/huytd/agar.io-clone/wiki/Setup)
 
-## License
->You can check out the full license [here](https://github.com/huytd/agar.io-clone/blob/master/LICENSE).
-
-This project is licensed under the terms of the **MIT** license.
+[https://github.com/isfunadila/kelompokKomdat2-Agar.io](https://github.com/isfunadila/kelompokKomdat2-Agar.io)
