@@ -15,11 +15,12 @@ Versi Steam diumumkan pada 3 Mei 2015, dan versi mobile dari Agar-Agar.io untuk 
 * lakukan git clone pada repositori  git clone [https://github.com/huytd/agar.io-clone.git](https://github.com/huytd/agar.io-clone.git)
 * masuk ke folder tempat clone sebelumnya  cd agar.io-clone
 * instal gulp npm install -g gulp
-* instal npm install
+* pasang npm 
+			sudo npm install
 * jalankan server gulp run 
 
 ##Cara Pemakaian
-###Cara pemakaian:
+
 ####Menyalakan server
 1. Ketik ssh adam@172.18.88.72 pada terminal
 2. Masukkan password
@@ -40,38 +41,43 @@ Versi Steam diumumkan pada 3 Mei 2015, dan versi mobile dari Agar-Agar.io untuk 
 3. Setiap pemain memakan partikel makanan, partikel makanan baru akan muncul
 4. Semakin besar ukuran karakter, semakin lambat untuk bergerak
 
-###****Tampilan aplikasi web****
+#****Tampilan aplikasi web****
 
 
 
 
 
-Fungsi-fungsi utama:
-Play
-Fungsi untuk bermain Agar.io bersama pemain lain
-Open chat box
-Fungsi untuk chatting dengan pemain lain
-Spectate
-Fungsi untuk melihat pemain lain bermain Agar.io tanpa kita ikut bermain
-Settings
-Fungsi untuk melakukan pengaturan permainan, terdapat pengaturan mouse, border, mass, dan food
+##****Fungsi-fungsi utama:****
+###Play
+* Fungsi untuk bermain Agar.io bersama pemain lain
+
+###Open chat box
+* Fungsi untuk chatting dengan pemain lain
+
+###Spectate
+* Fungsi untuk melihat pemain lain bermain Agar.io tanpa kita ikut bermain
+
+###Settings
+* Fungsi untuk melakukan pengaturan permainan, terdapat pengaturan mouse, border, mass, dan food
 
 
-Pembahasan (isfun)
-Pendapat anda tentang aplikasi web ini:
+#****Pembahasan****
 Pendapat kami permainan ini sangat mudah dimengerti dan seru jika bermain bersama teman maka penggunaan permainan ini sebagai aplikasi yang dipasang ke server. Permainan ini open source dan gratis jadi bagus sebagai alat pembelajaran web server dan maintenancenya.
-Pros: 
-Mudah diinstalasi
-Game mudah dipahami
+###Pros: 
+* Mudah diinstalasi
+* Game mudah dipahami
 
-Cons:
-Frame rate yang sangat jelek
-Game membosankan jika sendirian yang main
-Bandingkan dengan aplikasi web kelompok lain yang sejenis
+###Cons:
+* Frame rate yang sangat jelek
+* Game membosankan jika sendirian yang main
+* Bandingkan dengan aplikasi web kelompok lain yang sejenis
 
 
-Referensi (semua)
-https://id.wikipedia.org/wiki/Agar.io
-http://siloka.com/bermain-agar-io-menyegarkan-otak-dan-pikiran-kita.html
-https://github.com/huytd/agar.io-clone/wiki/Setup
-https://github.com/isfunadila/kelompokKomdat2-Agar.io
+#****Referensi****
+[https://id.wikipedia.org/wiki/Agar.io](https://id.wikipedia.org/wiki/Agar.io)
+
+[http://siloka.com/bermain-agar-io-menyegarkan-otak-dan-pikiran-kita.html](http://siloka.com/bermain-agar-io-menyegarkan-otak-dan-pikiran-kita.html)
+
+[https://github.com/huytd/agar.io-clone/wiki/Setup](https://github.com/huytd/agar.io-clone/wiki/Setup)
+
+[https://github.com/isfunadila/kelompokKomdat2-Agar.io](https://github.com/isfunadila/kelompokKomdat2-Agar.io)
